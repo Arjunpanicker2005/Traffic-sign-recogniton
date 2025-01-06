@@ -7,7 +7,7 @@ This project implements a traffic sign detection and classification system using
 - Preprocessing of images (resizing, normalization, and augmentation)
 - Training a YOLOv8 model for sign detection and classification
 - Evaluation of model performance using accuracy and loss metrics
-- Real-time traffic sign detection and classification using video streams
+  
 
 ## Dataset
 The [GTSRB dataset]contains over 50,000 images of traffic signs belonging to 43 classes. Each image is labeled with the corresponding traffic sign type.
