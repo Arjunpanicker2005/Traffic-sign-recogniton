@@ -22,7 +22,7 @@ print("\nValidating the model...")
 model.val()
 
 # 3. Predict on a Test Image
-TEST_IMAGE = "C:/Users/Ajith Kumar KP/Documents/yolo/dataset/val/images/00000.png"  # Path to your test image
+TEST_IMAGE = ""  # Path to your test image
 print(f"\nRunning prediction on: {TEST_IMAGE}")
 results = model.predict(source=TEST_IMAGE, save=True, imgsz=IMG_SIZE)
 print(f"Predictions saved to: {results[0].save_dir}")
